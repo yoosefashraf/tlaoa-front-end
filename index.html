@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tlaoa - تلاوة</title>
+    <!-- all - css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <!-- nav with logo and search bar  -->
+    <header>
+        <!-- logo and nav bar -->
+        <nav>
+            <div class="logo">
+                <a href="#"></a>
+                <img src="./images/logo.png" title="موقع تلاوة" alt="تلاوة">
+                </a>
+            </div>
+            <form action="./search">
+                <input type="search" name="" id="sear" placeholder="ابحث عن قارئك المفضل... ">
+            </form>
+            <ul>
+                <li><a class="active" href="#">قرأن الكريم</a></li>
+                <li><a href="#">تلاوة</a></li>
+                <li><a href="#">الشيوخ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- background img and player audio title reader -->
+    <div class="container">
+        <div class="slider-img"></div>
+        <div class="info-title">
+            <h2 class="title">
+                <em class="name-reader">الشيخ:</em>
+                عبد الباسط عبد الصمد
+            </h2>
+            <p class="disk">الاستماع لسورة البقرة mp3</p>
+            <audio id="myAudio" src="./sound/cou.mp3" controls></audio>
+        </div>
+    </div>
+    <div class="foot"></div>
+    <!-- cards audio -->
+    <div class="categorie-all">
+        <!-- categorie one  -->
+        <div class="categorie-1">
+            <h3 class="title-cat">
+                <em class="name-reader">ابحث في قسم القارئ :</em>
+                محمد محمود الطبلاوي
+                <span class="line"></span>
+            </h3>
+            <h2 class="listen-more">استمع الي المزيد</h2>
+            <div class="categorie-audio">
+                <div class="card">
+                    <img src="./images/2017_5_28_21_21_10_596.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ الطبلاوي</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/2017_5_28_21_21_10_596.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ الطبلاوي</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/2017_5_28_21_21_10_596.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ الطبلاوي</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/2017_5_28_21_21_10_596.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ الطبلاوي</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/2017_5_28_21_21_10_596.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ الطبلاوي</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/2017_5_28_21_21_10_596.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ الطبلاوي</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- categorie 2  -->
+        <div class="categorie-2">
+            <h3 class="title-cat">
+                <em class="name-reader">ابحث في قسم القارئ :</em>
+                عبد الباسط عبد الصمد
+                <span class="line"></span>
+            </h3>
+            <h2 class="listen-more">استمع الي المزيد</h2>
+            <div class="categorie-audio">
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- categorie 2  -->
+        <div class="categorie-2">
+            <h3 class="title-cat">
+                <em class="name-reader">ابحث في قسم القارئ :</em>
+                عبد الباسط عبد الصمد
+                <span class="line"></span>
+            </h3>
+            <h2 class="listen-more">استمع الي المزيد</h2>
+            <div class="categorie-audio">
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/72ea1cc09038fd8a1556358a670c245c--quran.jpg" alt="">
+                    <h2 class="title-avatar">القارئ الشيخ عبد الباسط عبد الصمد</h2>
+                    <div class="disk-avatar">
+                        <button onclick="playAudio()" type="button">استمع الي سورة البقرة</button>
+                        <button onclick="pauseAudio()" type="button">ايقاف التشغيل</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <h2 class="by">
+            <i class="fas fa-heart"></i>
+            Youssef Ashraf
+        </h2>
+
+    </footer>
+    <script>
+        var x = document.getElementById("myAudio");
+
+        function playAudio() {
+            x.play();
+        }
+        function pauseAudio() {
+            x.pause();
+        }
+    </script>
+</body>
+
+</html>
